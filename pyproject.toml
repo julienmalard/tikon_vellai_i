@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "மாவு_பூச்சி"
+version = "0.1.0"
+description = ""
+authors = ["julienmalard <julien.malard@mail.mcgill.ca>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+tikon = {git = "https://github.com/julienmalard/tikon", rev = "7ebc915"}
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
